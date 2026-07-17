@@ -65,15 +65,16 @@ align-items:center;
 padding:28px 0;
 }
 
-.logo{
-    display:flex;
-    align-items:center;
+.logo img{
+    height:48px;
+    width:auto;
+    filter:drop-shadow(0 0 15px rgba(59,130,246,.5));
+    transition:.3s;
 }
 
-.logo img{
-    height:48px;      /* প্রয়োজন অনুযায়ী 40-60px করুন */
-    width:auto;
-    display:block;
+.logo img:hover{
+    transform:scale(1.08);
+    filter:drop-shadow(0 0 25px rgba(6,182,212,.8));
 }
 
 .logo span{
